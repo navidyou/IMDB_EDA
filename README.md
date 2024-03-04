@@ -18,14 +18,22 @@ Loaded the IMDB Movies dataset using Hugging Face's datasets library.
 Converted the dataset into a pandas DataFrame for ease of manipulation.
 Preprocessed the data, including converting rating scales, handling missing values, and removing duplicates.
 ## Data Analysis Overview
-Ratings Analysis: Categorized movie ratings into 'Low', 'Medium', and 'High' and analyzed their distribution.
-Text Preprocessing: Applied NLP techniques such as tokenization, lemmatization, and removal of stopwords on movie descriptions.
-Word Clouds: Generated word clouds to visualize prevalent words in high vs. low rating movies.
-TF-IDF Analysis: Calculated TF-IDF scores to find significant words across documents.
-Cosine Similarity: Examined the similarity between movie descriptions of different rating categories.
-Clustering: Used K-means clustering to group movies based on their TF-IDF features, analyzing cluster patterns in relation to ratings.
-Topic Modeling: Performed LDA to discover dominant topics within movie descriptions and correlated these topics with movie ratings.
-Entity Recognition: Identified key 'PERSON' and 'ORG' entities within movie descriptions and analyzed their impact on movie ratings.
+### Ratings Analysis: 
+Categorized movie ratings into 'Low', 'Medium', and 'High' and analyzed their distribution.
+### Text Preprocessing: 
+Applied NLP techniques such as tokenization, lemmatization, and removal of stopwords on movie descriptions.
+### Word Clouds: 
+Generated word clouds to visualize prevalent words in high vs. low rating movies.
+### TF-IDF Analysis:
+Calculated TF-IDF scores to find significant words across documents.
+### Cosine Similarity:
+Examined the similarity between movie descriptions of different rating categories.
+### Clustering:
+Used K-means clustering to group movies based on their TF-IDF features, analyzing cluster patterns in relation to ratings.
+### Topic Modeling:
+Performed LDA to discover dominant topics within movie descriptions and correlated these topics with movie ratings.
+### Entity Recognition:
+Identified key 'PERSON' and 'ORG' entities within movie descriptions and analyzed their impact on movie ratings.
 ## Insights and Findings
 Movies mentioning "great" tend to have higher ratings, whereas those mentioning "music" are more likely to have medium ratings.
 High-rating movies show more similarity in descriptions compared to low-rating ones.
