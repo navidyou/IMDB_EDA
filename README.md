@@ -36,10 +36,15 @@ Performed LDA to discover dominant topics within movie descriptions and correlat
 Identified key 'PERSON' and 'ORG' entities within movie descriptions and analyzed their impact on movie ratings.
 ## Insights and Findings
 Movies mentioning "great" tend to have higher ratings, whereas those mentioning "music" are more likely to have medium ratings.
+
 High-rating movies show more similarity in descriptions compared to low-rating ones.
+
 Clustering revealed distinct groups of movies with similar rating patterns, suggesting thematic or stylistic consistencies.
+
 Topic modeling provided insights into the prevalent themes across movies, with certain topics correlating with higher or lower ratings.
+
 Entity analysis highlighted significant figures and organizations mentioned in high and low-rated movies, offering perspectives on their influence on ratings.
+
 ## Conclusion
 This EDA on the IMDB Movies dataset demonstrates the power of combining traditional statistical analysis with advanced natural language processing techniques to extract meaningful insights from complex data. The findings can inform content creators, marketers, and movie enthusiasts about trends and patterns in the film industry.
 
